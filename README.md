@@ -1,12 +1,13 @@
-# Fluent gtk theme
+# Win11 theme
 
-Fluent is a Fluent design theme for GNOME/GTK based desktop environments. See also [Fluent Icon theme](https://github.com/vinceliuice/Fluent-icon-theme).
+Win11 is a Fluent design theme for GNOME/GTK based desktop environments
 
-### Normal version
-![screenshot01](https://github.com/vinceliuice/Fluent-gtk-theme/blob/Images/screenshot01.png?raw=true)
+### Donate
 
-### Blur version (Only for Gnome-Shell desktop)
-![screenshot-blur](https://github.com/vinceliuice/Fluent-gtk-theme/blob/Images/screenshot-blur.jpg?raw=true)
+If you like my project, you can buy me a coffee:
+
+<span class="paypal"><a href="https://www.paypal.me/yeyushengfan258" title="Donate to this project using Paypal"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal donate button" /></a></span>
+
 
 #### Blur version requirement
 
@@ -38,7 +39,7 @@ Run the following commands in the terminal:
 ```
 -d, --dest DIR          Specify destination directory (Default: /usr/share/themes)
 
--n, --name NAME         Specify theme name (Default: Fluent)
+-n, --name NAME         Specify theme name (Default: Win11)
 
 -t, --theme VARIANT     Specify theme color variant(s) [default|purple|pink|red|orange|yellow|green|grey|teal|all] (Default: blue)
 
@@ -65,9 +66,8 @@ Run the following commands in the terminal:
 -h, --help              Show help
 ```
 
-![theme-view](https://github.com/vinceliuice/Fluent-gtk-theme/blob/Images/theme-view.png?raw=true)
-
 > For more information, run: `./install.sh --help`
+
 
 ### Flatpak Installation
 
@@ -75,25 +75,11 @@ Automatically install your host GTK+ theme as a Flatpak.
 
 - [pakitheme](https://github.com/refi64/pakitheme)
 
-### Wallpaper
-[Install Wallpapers](https://github.com/vinceliuice/Fluent-gtk-theme/tree/Wallpaper)
+## Preview:
+![preview-01](preview-01.jpg?raw=true)
+![preview-02](preview-02.jpg?raw=true)
+![preview-03](preview-03.jpg?raw=true)
+![preview-04](preview-04.jpg?raw=true)
 
-#### Preview
-![wallpaper](https://github.com/vinceliuice/Fluent-gtk-theme/blob/Images/wallpaper-view.png?raw=true)
 
-### Firefox theme
-[Install Firefox theme](src/firefox)
 
-#### Preview
-![firefox-view](https://github.com/vinceliuice/Fluent-gtk-theme/blob/Images/firefox-view.png?raw=true)
-
-### Fix for Dash to panel
-
-Just install the compact version
-
-```sh
-./install.sh --tweaks compact
-```
-
-## Gtk theme widgets
-![screenshot02](https://github.com/vinceliuice/Fluent-gtk-theme/blob/Images/screenshot02.png?raw=true)

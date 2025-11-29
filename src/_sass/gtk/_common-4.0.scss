@@ -1835,10 +1835,15 @@ headerbar {
   min-height: $large-size;
   margin: 0;
   padding: 0;
-  background-color: $titlebar;
 
   @if $outline =='true' and $topbar =='dark' and $variant =='light' {
     box-shadow: inset 0 -1px $divider, inset 0 1px highlight($titlebar);
+  }
+
+  @if $opacity == 'solid' or $blur == 'true' {
+    background-color: $titlebar;
+  } @else {
+    background-color: rgba($titlebar, 0.98);
   }
 
   &:disabled {

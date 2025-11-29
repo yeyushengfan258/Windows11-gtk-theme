@@ -1581,7 +1581,7 @@ searchbar > revealer > box {
   padding: 0;
   margin-left: $space-size / 2;
   margin-right: $space-size / 2;
-  @extend %circular-button;
+  border-radius: $corner-radius;
 }
 
 %square_titlebutton {

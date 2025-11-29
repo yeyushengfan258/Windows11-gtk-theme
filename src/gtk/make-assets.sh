@@ -3,8 +3,8 @@
 for theme in '' '-purple' '-pink' '-red' '-orange' '-yellow' '-green' '-teal' '-grey'; do
     case "$theme" in
       '')
-        theme_color_dark='#1A73E8'
-        theme_color_light='#3281EA'
+        theme_color_dark='#00a0d7'
+        theme_color_light='#00a0d7'
         ;;
       -purple)
         theme_color_dark='#AB47BC'
@@ -41,8 +41,8 @@ for theme in '' '-purple' '-pink' '-red' '-orange' '-yellow' '-green' '-teal' '-
     esac
 
   cp -rf "assets.svg" "assets${theme}.svg"
-  sed -i "s/#1A73E8/${theme_color_dark}/g" "assets${theme}.svg"
-  sed -i "s/#3281EA/${theme_color_light}/g" "assets${theme}.svg"
+  sed -i "s/#00a0d7/${theme_color_dark}/g" "assets${theme}.svg"
+  sed -i "s/#00a0d7/${theme_color_light}/g" "assets${theme}.svg"
 done
 
 echo -e "DONE!"

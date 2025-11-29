@@ -94,7 +94,7 @@
 //
 // Basic colors
 //
-$primary:                               theme(color);
+$primary:                               #4bc8ff;
 $entry-highlight:                       lighten($primary, 25%);
 $drop_target_color:                     #FF7043;
 
@@ -108,11 +108,12 @@ $scrim-alt:                             rgba(black, 0.3);
 $scrim-inverse:                         rgba(white, 0.1);
 
 $menu:                                  if($opacity == 'default', rgba($surface, 0.98), $surface);
-$tooltip:                               rgba(#363636, 0.9);
-$titlebar:                              titlebar(normal);
-$titlebar-backdrop:                     titlebar(backdrop);
+$tooltip:                               rgba(#424242, 0.9);
+$titlebar:                              if($variant == 'light', #F2F2F2, #282828);
+$titlebar-backdrop:                     if($variant == 'light', #ffffff, #323232);
 $panel:                                 if($topbar == 'light', rgba(#F7F7F7, 0.8), rgba(#1F1F1F, 0.8));
 $panel-solid:                           if($topbar == 'light', #F7F7F7, #1F1F1F); // for Unity panel which doesn't allow translucent colors
+$sidebar:                               if($variant == 'light', #F2F2F2, #242424);
 
 $blur_opacity:                          if($variant == 'light', 0.85, 0.5);
 
@@ -135,7 +136,7 @@ $link-visited:                          if($variant == 'light', $purple-500, $pu
 
 $warning:                               if($variant == 'light', #F4B400, #FDD633);
 $error:                                 if($variant == 'light', #D93025, #F28B82);
-$success:                               if($variant == 'light', #0F9D58, #81C995);
+$success:                               $blue-600;
 
 $suggested:                             $primary;
 $destructive:                           $error;

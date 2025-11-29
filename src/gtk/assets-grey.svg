@@ -6,7 +6,7 @@
    viewBox="0 0 400 120"
    id="svg316"
    sodipodi:docname="assets.svg"
-   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -21,13 +21,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="0.82125001"
-     inkscape:cx="379.29984"
-     inkscape:cy="-80.974124"
-     inkscape:window-width="1368"
-     inkscape:window-height="702"
+     inkscape:zoom="2.3228458"
+     inkscape:cx="206.21257"
+     inkscape:cy="120.75705"
+     inkscape:window-width="1920"
+     inkscape:window-height="1012"
      inkscape:window-x="0"
-     inkscape:window-y="32"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1"
      showguides="true"
@@ -36,7 +36,12 @@
      inkscape:deskcolor="#d1d1d1">
     <inkscape:grid
        type="xygrid"
-       id="grid1036" />
+       id="grid1036"
+       originx="0"
+       originy="0"
+       spacingy="1"
+       spacingx="1"
+       units="px" />
   </sodipodi:namedview>
   <defs
      id="colors">
@@ -129,7 +134,7 @@
     <linearGradient
        id="color-primary-light">
       <stop
-         stop-color="#DDDDDD"
+         stop-color="#464646"
          offset="1"
          id="stop22" />
     </linearGradient>

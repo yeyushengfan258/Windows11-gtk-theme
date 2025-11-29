@@ -30,7 +30,7 @@ fi
 
 SASSC_OPT="-M -t expanded"
 
-THEME_NAME=Fluent
+THEME_NAME=Win11
 THEME_VARIANTS=('' '-purple' '-pink' '-red' '-orange' '-yellow' '-green' '-teal' '-grey')
 COLOR_VARIANTS=('' '-Light' '-Dark')
 SIZE_VARIANTS=('' '-compact')
@@ -246,10 +246,6 @@ install() {
     cp -r "$SRC_DIR/xfwm4/assets$color/"*.png                                   "$THEME_DIR/xfwm4"
     cp -r "$SRC_DIR/xfwm4/themerc${ELSE_LIGHT:-}"                               "$THEME_DIR/xfwm4/themerc"
   fi
-
-  mkdir -p                                                                      "$THEME_DIR/labwc"
-  cp -r "$SRC_DIR/labwc/assets${ELSE_LIGHT:-}/"*.svg                            "$THEME_DIR/labwc"
-  cp -r "$SRC_DIR/labwc/themerc${ELSE_DARK:-}${ELSE_LIGHT:-}"                   "$THEME_DIR/labwc/themerc"
 
   mkdir -p                                                                      "$THEME_DIR/metacity-1"
   cp -r "$SRC_DIR/metacity-1/metacity-theme-2$color.xml"                        "$THEME_DIR/metacity-1/metacity-theme-2.xml"
